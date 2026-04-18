@@ -5,8 +5,8 @@ Descripción: Dashboard central del portafolio con navegación a 15 proyectos.
 """
 
 import streamlit as st
-from utils.config import PROFILE, PROJECTS, SOCIAL_LINKS
-from utils.components import render_card, render_footer, inject_global_css
+from config import PROFILE, PROJECTS, SOCIAL_LINKS
+from components import render_card, render_footer, inject_global_css
 
 # ─────────────────────────────────────────
 # CONFIGURACIÓN DE PÁGINA
